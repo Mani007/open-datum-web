@@ -17,16 +17,21 @@ function Navbar() {
   const navItems = [
     { id: 1, text: 'About' },
     { id: 2, text: 'Technology' },
-    { id: 3, text: 'Services' },
-    { id: 4, text: 'Solutions' },
+    { id: 3, text: 'Events' },
+    { id: 4, text: 'Community' },
+    { id: 5, text: 'Contribute' },
+    { id: 6, text: 'Partners' },
+    { id: 7, text: 'Contact' },
+    // { id: 3, text: 'Services' },
+    // { id: 4, text: 'Solutions' },
     // { id: 5, text: 'Impact Stories' },
-    { id: 6, text: 'Industry' },
-    { id: 7, text: 'ResponsibleAI' },
+    // { id: 6, text: 'Industry' },
+    // { id: 7, text: 'ResponsibleAI' },
 
   ];
   return (
     <>
-     <div className='fixed bg-indigo-200 flex justify-between items-center md:h-24 max-w-full  w-full px-8  mr-4 text-slate-900 z-30 '>
+     <div className='fixed bg-[#b6d8db] flex justify-between items-center md:h-24 max-w-full  w-full px-8  mr-4 text-slate-900 z-30 '>
       {/* Logo */}
       {/* <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1> */}
       <div className="mx-2 my-4 ">
@@ -44,7 +49,7 @@ function Navbar() {
         {navItems.map(item => (
           <li
             key={item.id}
-            className='p-4 hover:bg-[#00df9a] rounded-xl m-2 cursor-pointer duration-300 hover:text-black text-2xl'
+            className='p-4 hover:bg-[#1bad9f] rounded-xl m-2 cursor-pointer duration-300 hover:text-white text-2xl'
           >
             <Link href={`/${item.text}`}>{item.text}</Link>
             
@@ -61,7 +66,7 @@ function Navbar() {
       <ul
         className={
           nav
-            ? 'fixed md:hidden right-0 top-16 w-[50%] h-full  bg-indigo-200 ease-in-out duration-500 z-10'
+            ? 'fixed md:hidden right-0 top-16 w-[40%] h-full  bg-[#b6d8db] ease-in-out duration-500 z-10'
             : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'
         }
       >
@@ -81,7 +86,7 @@ function Navbar() {
         {navItems.map(item => (
           <li
             key={item.id}
-            className='p-4 border-b rounded-xl hover:bg-[#00df9a] duration-300 hover:text-black cursor-pointer border-gray-600'
+            className='p-4  hover:bg-[#1bad9f] duration-300 hover:text-black cursor-pointer'
           >
             <Link href={`/${item.text}`}>{item.text}</Link>
           </li>
