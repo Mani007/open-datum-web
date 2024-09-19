@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image";
+import {dummy2} from '../constants';
 
 function About() {
   return (
@@ -14,6 +15,7 @@ function About() {
           height={38}
           priority
         />
+        <p>{dummy2}</p>
     </>
   )
 }
