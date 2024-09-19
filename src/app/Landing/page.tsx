@@ -11,7 +11,7 @@ function Landing() {
      <div className="relative flex flex-col items-center justify-center">
         <Image src={Img1} alt="base"/>
         
-            <h1 className="font-light absolute text-center  lg:text-8xl md:text-10xl sm:text-10xl "><strong> Micro-Plastics <br /> The Hidden Pandemic </strong></h1> 
+            <h1 className="font-light absolute text-center text-slate-800 lg:text-8xl md:text-10xl sm:text-10xl "><strong> Micro-Plastics <br /> The Hidden Pandemic </strong></h1> 
             
                          
     </div>

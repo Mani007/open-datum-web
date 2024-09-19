@@ -4,8 +4,8 @@ function Roadmap() {
   return (
     <>
     <section className="items-center bg-[#A7E6F1]  justify-center">
-        <div className="mb-5 mt-5 text-gray-800 text-center"> 
-          <h2 className="text-3xl font-bold mb-6">Project Road-Map</h2>
+        <div className=" text-gray-800 text-center"> 
+          <h2 className="text-4xl pt-10 font-bold mb-6">Project Road-Map</h2>
         </div>
         <div className="flex items-center justify-center py-10">
   <div className="max-w-screen-sm  lg:max-w-screen-md xl:max-w-screen-lg px-20 mx-auto">

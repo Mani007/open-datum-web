@@ -9,8 +9,8 @@ function About() {
   return (
     <>
 
-<section className="mb-32 mt-10 px-20 bg-[#A7E6F1] text-neutral-700 text-center">
-        <h2 className="text-3xl font-bold mb-12">Meet The Team</h2>
+<section className=" px-20 bg-[#A7E6F1] text-neutral-700 text-center">
+        <h2 className="text-4xl font-bold mb-12">Meet The Team</h2>
         
     
         <div className="grid px-30 md:grid-cols-3 gap-x-6 lg:gap-x-12">
