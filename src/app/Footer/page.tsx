@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
        <footer
-  className="bg-[#b6d8db] text-center text-neutral-600 dark:bg-indigo-200 dark:text-neutral-900 lg:text-left">
+  className="bg-[#b6d8db] text-center text-neutral-700 dark:bg-indigo-200 dark:text-neutral-900 lg:text-left">
   <div
     id="comm" className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
     

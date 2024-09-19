@@ -9,13 +9,13 @@ function About() {
   return (
     <>
 
-<section className="mb-32 mt-10 bg-[#A7E6F1] text-gray-800 text-center">
+<section className="mb-32 mt-10 px-20 bg-[#A7E6F1] text-neutral-700 text-center">
         <h2 className="text-3xl font-bold mb-12">Meet The Team</h2>
         
     
-        <div className="grid  md:grid-cols-3 gap-x-6 lg:gap-x-12">
+        <div className="grid px-30 md:grid-cols-3 gap-x-6 lg:gap-x-12">
           <div className="mb-6 lg:mb-0">
-            <div className="bg-white block rounded-lg shadow-lg">
+            <div className="bg-[#b6d8db] block rounded-lg shadow-lg">
               <div className="relative overflow-hidden bg-no-repeat bg-cover">
                 <Image src={Vai} alt='Vaibhav' className="w-full rounded-t-lg" />
                 <a href="#!">
@@ -52,7 +52,7 @@ function About() {
           </div>
     
           <div className="mb-6 lg:mb-0">
-            <div className="bg-white block rounded-lg shadow-lg">
+            <div className="bg-[#b6d8db] block rounded-lg shadow-lg">
               <div className="relative overflow-hidden bg-no-repeat bg-cover">
                 <Image src={Mohnish} alt='Mohnish'
                  className="w-full rounded-t-lg" />
@@ -89,7 +89,7 @@ function About() {
           </div>
     
           <div className="">
-            <div className="bg-white block rounded-lg shadow-lg">
+            <div className="bg-[#b6d8db] block rounded-lg shadow-lg">
               <div className="relative overflow-hidden bg-no-repeat bg-cover">
                 <Image src={Coming} alt='Comingsoon'
                 className="w-full rounded-t-lg" />
