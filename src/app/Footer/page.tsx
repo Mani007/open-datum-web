@@ -107,7 +107,7 @@ function Footer() {
     </div>
   </div>
   <div className="bg-[#b6d8db] p-6 text-center dark:bg-indigo-200">
-    <span>© 2023 Copyright:</span>
+    <span>© 2023-2024 Copyright:</span>
     <a
       className="font-semibold text-neutral-600 dark:text-neutral-600"
       href="https://tailwind-elements.com/"

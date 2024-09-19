@@ -31,16 +31,16 @@ function Navbar() {
   ];
   return (
     <>
-     <div className='fixed bg-[#b6d8db] flex justify-between items-center md:h-24 max-w-full  w-full px-8  mr-4 text-slate-900 z-30 '>
+     <div className=' bg-[#b6d8db] flex justify-between items-center md:h-24 max-w-full  w-full px-8  mr-4 text-slate-900 z-30 '>
       {/* Logo */}
       {/* <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1> */}
       <div className="mx-2 my-4 ">
              {/* <ion-icon name="logo-pwa" className="text-5xl text-blue-600 hover:text-stone-600"></ion-icon> */}
              <Link href='/'><Image
       src={Logo}
-      width={150}
-      height={150}
-      alt="Picture of the author"
+      width={100}
+      height={100}
+      alt="OpenDatum Logo"
     /></Link>
          </div>
 
