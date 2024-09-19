@@ -7,8 +7,8 @@ function Roadmap() {
         <div className=" text-gray-800 text-center"> 
           <h2 className="text-4xl pt-10 font-bold mb-6">Project Road-Map</h2>
         </div>
-        <div className="flex items-center justify-center py-10">
-  <div className="max-w-screen-sm  lg:max-w-screen-md xl:max-w-screen-lg px-20 mx-auto">
+        <div className="flex  items-center justify-center py-10">
+  <div className="max-w-screen-sm  lg:max-w-screen-md xl:max-w-screen-lg pl-40 pr-10 mx-auto">
     <ol className="relative border-l-4 border-indigo-600 leading-loose">
       <li className="mb-10 ml-6 ">
         <div
@@ -42,7 +42,7 @@ function Roadmap() {
         Nov 2022
           
         </p>
-        <p className="font-bold text-lg mb-1">OpenDATUM Origin </p>
+        <p className="font-bold text-lg mb-1">OpenDatum Origin </p>
        
         <p>
            Creating OpenDatum, the platform to accelerate the research of microplastics degradation and toxicology. 
@@ -63,7 +63,7 @@ function Roadmap() {
         <div
              className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"
              ></div>
-        <p className="absolute -left-[9rem] p-0 m-0 font-bold">Dec 2024</p>
+        <p className="absolute -left-[7rem] p-0 m-0 font-bold">Dec 2024</p>
         <p className="font-bold text-lg mb-1">OpenDatum </p>
        
         <p>
@@ -74,7 +74,7 @@ function Roadmap() {
         <div
              className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"
              ></div>
-        <p className="absolute -left-[9rem] p-0 m-0 font-bold">
+        <p className="absolute -left-[7rem] p-0 m-0 font-bold">
           June 2025
         </p>
         <p className="font-bold text-lg mb-1">
@@ -89,7 +89,7 @@ function Roadmap() {
         <div
              className="absolute w-4 h-4 bg-white border-4 border-indigo-600 rounded-full -left-[0.6rem]"
              ></div>
-        <p className="absolute -left-[9rem] p-0 m-0 font-bold">Dec 2025</p>
+        <p className="absolute -left-[7rem] p-0 m-0 font-bold">Dec 2025</p>
         <p className="font-bold text-lg mb-1">
           OpenDatum on Blockchains
         </p>
