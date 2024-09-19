@@ -17,7 +17,9 @@ function About() {
           <div className="mb-6 lg:mb-0">
             <div className="bg-[#b6d8db] block rounded-lg shadow-lg">
               <div className="relative overflow-hidden bg-no-repeat bg-cover">
-                <Image src={Vai} alt='Vaibhav' className="w-full rounded-t-lg" />
+                <Image src={Vai} 
+                
+                alt='Vaibhav' className="w-full h-96 rounded-t-lg" />
                 <a href="#!">
                   <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
                 </a>
@@ -54,8 +56,10 @@ function About() {
           <div className="mb-6 lg:mb-0">
             <div className="bg-[#b6d8db] block rounded-lg shadow-lg">
               <div className="relative overflow-hidden bg-no-repeat bg-cover">
-                <Image src={Mohnish} alt='Mohnish'
-                 className="w-full rounded-t-lg" />
+                <Image src={Mohnish} 
+              
+                 alt='Mohnish'
+                 className="w-full h-96 rounded-t-lg" />
                 <a href="#!">
                   <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
                 </a>
@@ -92,7 +96,7 @@ function About() {
             <div className="bg-[#b6d8db] block rounded-lg shadow-lg">
               <div className="relative overflow-hidden bg-no-repeat bg-cover">
                 <Image src={Coming} alt='Comingsoon'
-                className="w-full rounded-t-lg" />
+                className="w-full h-96 rounded-t-lg" />
                 <a href="#!">
                   <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
                 </a>
@@ -105,8 +109,8 @@ function About() {
               </div>
               <div className="p-6">
                 <h5 className="text-lg font-bold mb-4">This could be You</h5>
-                <p className="text-gray-500 mb-4">We are looking for people willing to contribute to our initiative</p>
-                <a href="https://forms.gle/qExvw9CUgUA1669d9" target="_blank" className="text-blue-600"> Apply</a>
+                <p className="text-gray-500 mb-4">People willing to contribute to our initiative</p>
+                <a href="https://forms.gle/qExvw9CUgUA1669d9" target="_blank" className="text-blue-600"> Apply here</a>
                 
               </div>
             </div>
