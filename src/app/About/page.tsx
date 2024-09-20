@@ -10,7 +10,26 @@ function About() {
     <>
 
 <section className=" px-20 bg-[#A7E6F1] text-neutral-700 text-center">
-        <h2 className="text-4xl font-bold mb-12">Meet The Team</h2>
+<h2 className="text-4xl font-bold mb-12">About Us</h2>
+    <p>We have started this project out of our lab experiments turned some magical computer codes. Soon we realize the importance and impact of our work. So the journey of OpenDatum begins. Our primary goal is to create an integrated system between micro-plastics research chemistry lab to software interface via world wide web such that all the researchers, scientists, industry expert and technologist work together to monitor, predict and take actions to reverse the damages of micro-plastics pollutions. </p>  <br />
+    <div className='text-left'>
+    <h4><b>Our Ethos</b> </h4> 
+    <ol>
+        <li><b>1. Integrity</b></li>
+        <p>Everything we do, must withstand the test of public scrutiny. </p>
+        <li><b>2. Transparency </b></li>
+        <p>Every action we make is available to the public as is.</p>
+        <li><b>3. Inclusion </b> </li>
+        <p>Everyone is welcome and included, there is no place for any type of prejudice. </p>
+        <li><b>4. Open Innovation </b></li>
+        <p>We believe true innovation happens through collaborations.</p>
+        <li><b>5. Environment </b></li>
+        <p>Our ultimate product is our safer planet and its environment.</p>
+    </ol> 
+    </div>
+    <br />
+    
+        <h2 className="text-4xl font-bold mb-12">The Team</h2>
         
     
         <div className="grid px-30 md:grid-cols-3 gap-x-6 lg:gap-x-12">
