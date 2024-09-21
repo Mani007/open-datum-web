@@ -16,7 +16,7 @@ function Landing() {
                          
     </div>
  
-<div className="flex flex-col bg-[#A7E6F1] ">
+<div className="relative flex flex-col justify-center items-center  bg-[#A7E6F1]  pt-5">
  <section className="transition-all">
   <div className="grid grid-cols-2  ">
     <div className="relative flex flex-col items-center justify-center"> 
