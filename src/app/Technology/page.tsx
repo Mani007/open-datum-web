@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function Technology() {
   return (
     <>
@@ -9,6 +10,10 @@ function Technology() {
         
     <h2>Open Datum</h2>
     </div>
+    <video  src='/OpenDatum.mp4' autoPlay loop muted playsInline  className='min-w-[75%] min-h-full' >
+       
+    </video>
+    
     It is a web based tool that encompasses 
     <p>The tool</p>
     <p>Get Started</p>
