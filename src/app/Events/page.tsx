@@ -37,12 +37,12 @@ function Events() {
         },
         {
             id:5,
-            type: 'Talk',
+            type: 'Talks',
             image: talk,
         },
         {
             id:6,
-            type: 'Panel Discussion',
+            type: 'Discussion',
             image: pdiscussion,
         },
         {
@@ -65,7 +65,7 @@ function Events() {
     <>
     <section className='bg-[#b6d8db]'>
         <h2 className='text-center text-3xl'><strong> Events </strong> </h2>
-        <h2 className='text-center text-xl'> Limnoplast 2023  </h2>
+        <h2 className='text-center font-bold'> Limnoplast 2023  </h2>
         <div className='text-center justify-center'>
             <p> We have successfully introduced the inception of OpenDatum at UNESCO's Limnoplast 2023 conference in Paris, France.  </p>
         </div>
@@ -90,36 +90,39 @@ function Events() {
             </div>
         </div>
         
-        <h2 className='text-center text-xl'> Upcoming Events </h2>
+        <h2 className='mt-10 mb-5  text-center text-xl'> Upcoming Events </h2>
+        <div className="grid grid-cols-1 lg:grid-cols-3 mx-20 px-30  gap-x-6 gap-y-6 lg:gap-x-12">
         {events.map( (event) => {
             return(
                 <>
                 
                
 
-                <div  key={event.id} className="flex flex-row md:flex-col px-30  gap-x-6 lg:gap-x-12">
-          <div className="mb-6 lg:mb-0">
-            <div className="bg-[#b6d8db] block rounded-lg shadow-lg">
+               
+          <div  key={event.id} className="mb-6 lg:mb-0">
+            <div className="bg-[#b6d8db]  block rounded-lg shadow-lg">
               <div className="relative overflow-hidden bg-no-repeat bg-cover">
                 <Image src={event.image} 
                 
-                alt={event.type} className="w- h-full rounded-t-lg" />
+                alt={event.type} className="w-full h-full rounded-t-lg" />
                 
                 
               </div>
-              <div className="p-6">
+              <div className="p-6 text-center">
                 <h5 className="text-lg font-bold mb-4">
                 {event.type}</h5>
-                <p className="text-gray-500 mb-4">Chief of Open DATUM Initiative</p>
+                <p className="text-gray-700 mb-4">Coming Soon...</p>
               
               </div>
             </div>
           </div>
-          </div>
+          
                 </>
 
             )}
         )}
+        </div>
+        
     </section>
     </>
   )
