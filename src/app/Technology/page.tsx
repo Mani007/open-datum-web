@@ -10,11 +10,12 @@ function Technology() {
         
     <h2>Open Datum</h2>
     </div>
-    <video  src='/OpenDatum.mp4' autoPlay loop muted playsInline  className='min-w-[75%] min-h-full' >
+    <p className='mx-10'> It is a web based tool that encompasses </p>
+    <video  src='/OpenDatum.mp4' autoPlay loop muted playsInline className='min-w-[75%] min-h-full' >
        
     </video>
     
-    It is a web based tool that encompasses 
+   
     <p>The tool</p>
     <p>Get Started</p>
     <p>Documentation</p>
